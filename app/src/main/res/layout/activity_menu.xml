@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/fondo_drawable_menu"
+    tools:context=".Activity_PostulanteRegistro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcometv"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="25dp"
+            android:text="Bienvenido:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/azu_cobalto"/>
+
+        <TextView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center|center_horizontal"
+            android:text="MENÚ PRINCIPAL"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/azu_cobalto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/nuevobtn"
+                android:layout_width="202dp"
+                android:layout_height="64dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/botton_drawable"
+                android:gravity="center"
+                android:text="NUEVO"
+                android:paddingTop="8dp"
+                android:drawableTop="@drawable/ic_baseline_man_24"
+                android:textColor="@color/azu_cobalto"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/infobtn"
+                android:layout_width="202dp"
+                android:layout_height="61dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/botton_drawable"
+                android:gravity="center"
+                android:text="Info. Postulante"
+                android:textColor="@color/azu_cobalto"
+                android:textSize="14dp"
+                android:paddingTop="8dp"
+                android:drawableTop="@drawable/ic_baseline_search_24"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

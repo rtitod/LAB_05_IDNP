@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/fondo_drawable_info"
+    tools:context=".Activity_PostulanteRegistro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center|center_horizontal"
+            android:text="BUSCAR POSTULANTE"
+            android:textColor="@color/azu_cobalto"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/dnied"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="24dp"
+                    android:text="DNI:"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:text="Nombres:"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:text="Apellidos:"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Fecha de nacimiento: "
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Colegio:"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Carrera:"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal">
+
+                <Button
+                    android:id="@+id/buscarbtn"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/boton_drawable_buscar"
+                    android:gravity="center"
+                    android:text="Buscar"
+                    android:textColor="@color/azu_cobalto"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/dnitv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp"
+                    android:text="(vacío)"
+                    android:textColor="@color/azu_cobalto"/>
+
+                <TextView
+                    android:id="@+id/nombretv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="(vacío)"
+                    android:textSize="15dp"
+                    android:textColor="@color/azu_cobalto"/>
+
+                <TextView
+                    android:id="@+id/apellidotv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp"
+                    android:text="(vacío)"
+                    android:textColor="@color/azu_cobalto"/>
+
+                <TextView
+                    android:id="@+id/fechanactv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp"
+                    android:text="(vacío)"
+                    android:textColor="@color/azu_cobalto"/>
+
+                <TextView
+                    android:id="@+id/colegiotv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp"
+                    android:text="(vacío)"
+                    android:textColor="@color/azu_cobalto"/>
+
+                <TextView
+                    android:id="@+id/carreratv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp"
+                    android:text="(vacío)"
+                    android:textColor="@color/azu_cobalto"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|center_horizontal">
+
+            <Button
+                android:id="@+id/regresarbtn"
+                android:layout_width="140dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/botton_drawable"
+                android:gravity="center"
+                android:text="Regresar"
+                android:textColor="@color/azu_cobalto"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
